@@ -1,0 +1,20 @@
+[package]
+name = "ritenn"
+version = "0.1.0"
+authors = ["Chojan Shang <psiace@outlook.com>"]
+edition = "2018"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/ritedb/ritenn"
+description = "A multilayer feedforward backpropagation neural network library"
+keywords = ["nn", "neural-network", "classifier", "backpropagation","machine-learning"]
+
+[features]
+serde_flexbuffers = ["serde", "serde_derive", "flexbuffers"]
+
+[dependencies]
+rand = "0.8"
+rand_distr = "0.4"
+flexbuffers = { version = "0.2.2", optional = true }
+serde = { version = "1.0", optional = true }
+serde_derive = { version = "1.0", optional = true }
+
