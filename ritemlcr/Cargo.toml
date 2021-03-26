@@ -1,0 +1,15 @@
+[package]
+name = "ritemlcr"
+version = "0.1.0"
+authors = ["Chojan Shang <psiace@outlook.com>"]
+edition = "2018"
+description = "An adaptive machine-learning-based cache tracker/replacement policy. From ticki's tfs/mlcr."
+repository = "https://github.com/ritedb/ritenn"
+documentation = "https://docs.rs/ritemlcr"
+license = "MIT/Apache-2.0"
+keywords = ["cache", "replacement", "machine", "neural", "lru"]
+
+[dependencies]
+crossbeam-queue = "0.3.1"
+parking_lot = "0.11"
+ritenn = "0.1"
